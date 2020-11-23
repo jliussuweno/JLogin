@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JLogin_Tests' do
+  pod 'JLogin', :path => '../'
+  
+  
+end
