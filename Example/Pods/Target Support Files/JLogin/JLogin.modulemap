@@ -1,0 +1,6 @@
+framework module JLogin {
+  umbrella header "JLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

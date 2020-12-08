@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JLogin'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JLogin.'
+  s.summary          = 'A Login template for iOS 13.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,21 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Jlius Suweno/JLogin'
+  s.homepage         = 'https://github.com/jliussuweno/JLogin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jlius Suweno' => 'jliuss@live.com' }
-  s.source           = { :git => 'https://github.com/Jlius Suweno/JLogin.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jliussuweno/JLogin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'JLogin/Classes/**/*'
+  s.ios.deployment_target = '13.0'
   
-  # s.resource_bundles = {
-  #   'JLogin' => ['JLogin/Assets/*.png']
-  # }
-
+  s.source_files = 'JLogin/*.{h,m}'
+  
+  s.resources = 'JLogin/*.{xcassets,json,storyboard,xib,xcdatamodeld}'
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

@@ -1,0 +1,16 @@
+PODS:
+  - JLogin (0.1.0)
+
+DEPENDENCIES:
+  - JLogin (from `../`)
+
+EXTERNAL SOURCES:
+  JLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JLogin: 0079d04b3bc190c636d366a877c74b92c5cc07b1
+
+PODFILE CHECKSUM: bad5f5dcd4fed242fa483db3cebe653e8f4f45d8
+
+COCOAPODS: 1.10.0
